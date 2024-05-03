@@ -1,0 +1,18 @@
+
+.iconCircle {
+    width: 50px;                     /* Taille du cercle */
+    height: 50px;                    /* Taille du cercle */
+    background-color: #1E173C;    /* Couleur de fond du cercle */
+    border-radius: 50%;             /* Rend le div parfaitement rond */
+    border-color: #82be00;      
+    border-style: solid;
+    border-width: 2px;       
+    display: flex;                  /* Utilise Flexbox pour centrer l'icône */
+    align-items: center;            /* Centre verticalement l'icône dans le cercle */
+    justify-content: center;        /* Centre horizontalement l'icône dans le cercle */
+  }
+
+.iconCircle:hover{
+    background-color:#82be00;
+    cursor: pointer;
+  }
