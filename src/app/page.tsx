@@ -1,16 +1,12 @@
-import Header from './components/header/Header';
+import Header from "./components/header/Header";
+import TwitchPlayer from "./components/Twitch";
 
 export default function Home() {
     return (
         <>
             <Header />
             <main>
-                <iframe
-                    src="https://player.twitch.tv/?channel=chowh1&parent=www.localhost:3000.fr"
-                    allowFullScreen={true}
-                    height="378"
-                    width="620"
-                ></iframe>
+                <TwitchPlayer channel="alderiate" />
             </main>
         </>
     );
